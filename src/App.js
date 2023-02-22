@@ -3,7 +3,17 @@ import "./App.css"
 function App() {
   return (
     <div>
-      <p>This is My React Music Player</p>
+      <h2>Playing now</h2>
+      <img src="https://picsum.photos/200/300" alt="" />
+      <div>
+        <h3>Led Zeppelin</h3>
+        <p>Whole Lotta Love</p>
+      </div>
+      <div>
+        <button>Back</button>
+        <button>Play</button>
+        <button>Forward</button>
+      </div>
     </div>
   )
 }
